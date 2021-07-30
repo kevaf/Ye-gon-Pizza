@@ -60,4 +60,30 @@ nav a:hover{
 
 .orderonline{
     background-image: url(./Assets/ivan-torres-MQUqbmszGGM-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 550px;
+}
+.input{
+    width:35%;
+    height:fit-content;
+    background-color: #F9F3F1;
+    padding: 20px;
+    margin-left: 30%;
+    
+}
+
+.about{
+    background-image: url(./Assets/background1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    color: white;
+}
+.about h2{
+    margin-top: 15%;
+}
+.about p{
+    width: 55%;
+    
 }
