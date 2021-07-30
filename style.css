@@ -50,3 +50,10 @@ nav a:hover{
     color: red;
     text-decoration: none;
 }
+.choices{
+    display: flex;
+    margin-left: 35%;
+}
+.choices h4{
+    margin-left: 10px;
+}
