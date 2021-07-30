@@ -1,0 +1,46 @@
+header{
+    background-image: url(./Assets/hemant-latawa-IfQlwNqJqV8-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+}
+header h1{
+    text-align: center;
+    color: wheat;
+    padding-top: 10%;
+    font-weight: bolder;
+}
+.navcontainer{
+    width: 100%;
+    margin:0;    
+}
+
+nav{
+    float: right;
+    width: 100%;
+}
+
+nav ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    border: 1px solid white;
+    border-style: groove;
+    
+}
+nav li{
+    display: inline-block;
+    margin-left: 130px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-right: 50px;
+}
+nav a{
+     color: white;
+     text-decoration: none;
+     text-transform: uppercase;
+}
+nav a:hover{
+    color: red;
+    text-decoration: none;
+}
