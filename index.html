@@ -7,6 +7,7 @@
     <title>Ye-gon's</title>
     <link rel="stylesheet" href="/bootstrap.min.css">
     <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 </head>
 <body>
     <header><br><br><br><br><br><br>
@@ -26,15 +27,15 @@
         </div> 
        
     </header>
-    <div class="container">
+    <div class="jumbotron">
         <h2 class="text-center">Menu</h2>
         <div class="choices">
-            <h4>Pizza Size.</h4> &nbsp&nbsp ●●
-            <h4>Crust.</h4> &nbsp&nbsp●●
-            <h4>Toppings.</h4>
+            <h4 id="ps">Pizza Size.</h4> &nbsp&nbsp ●●
+            <h4 id="crs">Crust.</h4> &nbsp&nbsp●●
+            <h4 id="topp">Toppings.</h4>
         </div>
         <!-- PIZZA SIZE TABLE -->
-        <table class="table table-borderless">
+        <table class="table table-borderless" id="pizzasize">
             <tbody>
               <tr>
                 <th scope="row">Small</th>
@@ -51,7 +52,7 @@
             </tbody>
           </table>
           <!-- CRUST TABLE -->
-          <table class="table table-borderless">
+          <table class="table table-borderless" id="crust">
             <tbody>
               <tr>
                 <th scope="col">Crust</th>
@@ -92,7 +93,7 @@
             </tbody>
           </table>
           <!-- TOPPINGS TABLE -->
-          <table class="table table-borderless">
+          <table class="table table-borderless" id="toppings">
             <tbody>
               <tr>
                 <th scope="col">Toppings.</th>
@@ -147,7 +148,7 @@
                             <option value="Large">large</option>
                         </select>
                        <br><br>
-                        <select name="Crust" id="crust" required>
+                        <select name="Crust" id="crust1" required>
                             <option value="">Select Preffered Crust</option>
                             <option value="Cheese-stuffed">Cheese-Stuffed</option>
                             <option value="Pizza-Bagels">Pizza-Bagels</option>
@@ -155,7 +156,7 @@
                             <option value="Crispy">Crispy</option>
                             <option value="Gluten-Free">Gluten-Free</option>
                         </select><br><br>
-                        <select name="Toppings" id="toppings" required>
+                        <select name="Toppings" id="toppings1" required>
                             <option value="">Select Preffered Toppings</option>
                             <option value="Pepperoni">Pepperoni</option>
                             <option value="Mushrooms">Mushrooms</option>
@@ -171,9 +172,8 @@
     </div>
     <div class="about"><br><br>
         <h2 class="text-center">About Us.</h2> 
-        <h4 class="text-center">Best ingredientsand wood fired pizza.</h4>
-        <p>THE FRESHEST LOCALLY-GROWN INGREDIENTS AND HANDCRAFTED CRUST. Ye-Gon Pizza has created a menu featuring local ingredients, precisely cooked and brought together on the plate to create a lasting impression so you keep coming back for more. </p>
+        <p> Best ingredients and wood fired pizza. THE FRESHEST LOCALLY-GROWN INGREDIENTS AND HANDCRAFTED CRUST. Ye-Gon Pizza has created a menu featuring local ingredients, precisely cooked and brought together on the plate to create a lasting impression so you keep coming back for more. </p>
     </div>
-    
+    <script src="script.js"></script>
 </body>
 </html>

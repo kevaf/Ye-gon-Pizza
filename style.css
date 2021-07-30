@@ -53,6 +53,7 @@ nav a:hover{
 .choices{
     display: flex;
     margin-left: 35%;
+    
 }
 .choices h4{
     margin-left: 10px;
@@ -66,10 +67,11 @@ nav a:hover{
 }
 .input{
     width:35%;
-    height:fit-content;
+    height:550px;
     background-color: #F9F3F1;
     padding: 20px;
     margin-left: 30%;
+
     
 }
 
@@ -85,5 +87,8 @@ nav a:hover{
 }
 .about p{
     width: 55%;
-    
+    float: right;
+}
+#crust, #toppings{
+    display: none;
 }
