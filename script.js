@@ -15,8 +15,11 @@ $("#topp").click(function(){
     $('#crust').hide();
 })
 
-
-
+function orderOnline(){
+    var size = document.getElementById("crust1").value;
+    var topping =document.getElementById("toppings1").value;
+    var crust =document.getElementById("crust1").value;
+}
 
 
 
