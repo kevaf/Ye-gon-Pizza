@@ -58,7 +58,10 @@ nav a:hover{
 .choices h4{
     margin-left: 10px;
 }
-
+.container{
+    text-align: center;
+    height: 550px;
+}
 .orderonline{
     background-image: url(./Assets/ivan-torres-MQUqbmszGGM-unsplash.jpg);
     background-size: cover;
@@ -92,4 +95,7 @@ nav a:hover{
 }
 #crust, #toppings{
     display: none;
+}
+form{
+    margin-left: 24%;
 }

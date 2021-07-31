@@ -142,14 +142,14 @@
                 <p>Make your orders online or give us a call at <strong>+259722222333</strong> between 8.30am - 9.30pm for deliveries</p><br><br>
                 <form action="">
                         <select name="Size" id="size" required>
-                            <option value="">Select Pizza Size</option>
+                            <option value="">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp   Select Pizza Size &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp </option>
                             <option value="Small">Small</option>
                             <option value="Medium">Medium</option>
                             <option value="Large">large</option>
                         </select>
                        <br><br>
                         <select name="Crust" id="crust1" required>
-                            <option value="">Select Preffered Crust</option>
+                            <option value="">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp  Select Preffered Crust &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp </option>
                             <option value="Cheese-stuffed">Cheese-Stuffed</option>
                             <option value="Pizza-Bagels">Pizza-Bagels</option>
                             <option value="Flatbread">Flatbread</option>
@@ -157,14 +157,16 @@
                             <option value="Gluten-Free">Gluten-Free</option>
                         </select><br><br>
                         <select name="Toppings" id="toppings1" required>
-                            <option value="">Select Preffered Toppings</option>
+                            <option value="">&nbsp&nbsp&nbsp Select Preffered Toppings &nbsp&nbsp&nbsp </option>
                             <option value="Pepperoni">Pepperoni</option>
                             <option value="Mushrooms">Mushrooms</option>
                             <option value="Onions">Onions</option>
                             <option value="Sausages">Sausages</option>
                             <option value="Extra-Cheese">Extra-Cheese</option>
                         </select><br><br>
-                        <label for="quantity">Quantity</label> <input type="number" name="number" id="qty"min="1" max="100">
+                        <label for="quantity">Quantity</label> <input type="number" name="number" id="qty"min="1" max="100"><br>
+                        
+                        <input type="button" value="Submit" class="submit" onclick="orderOnline()">
                    
                 </form>
             </div>    
