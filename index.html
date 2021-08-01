@@ -27,8 +27,8 @@
         </div> 
        
     </header>
-    <div class="container" id="menu">
-        <h2 class="text-center">Menu</h2>
+    <div class="container" id="menu"><br><br>
+        <h2 class="text-center">Menu</h2><br><br>
         <div class="choices">
             <h4 id="ps">Pizza Size.</h4> &nbsp&nbsp ●●
             <h4 id="crs">Crust.</h4> &nbsp&nbsp●●
@@ -205,11 +205,11 @@
                 <div class="delivery">
                   <h2>Checkout</h2>
                   <form action="">
-                    <label for="">Street/Location</label><br>
-                    <input type="text"><br>
+                    <label for="">Physical Location</label><br>
+                    <input type="text" placeholder="i.e. Estate" id="location"><br>
                     <label for="">Phone Number</label><br>
-                    <input type="number"><br><br><br>
-                    <input type="button" value="Submit" class="submit">
+                    <input type="number" placeholder="i.e. 0722222222" id="phone"><br><br><br>
+                    <input type="button" value="Submit" class="submit" onclick="deliveryFunction()">
                   </form>
                 </div>
               </div>

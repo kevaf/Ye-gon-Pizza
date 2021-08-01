@@ -30,6 +30,15 @@ $("#pickup").click(function(){
 })
 });
 
+function deliveryFunction(){
+   
+      var place=document.getElementById("location").value
+      var phoneNum=document.getElementById("phone").value
+      
+      alert("Your order will be delivered to the location you have provided")
+
+}
+
 function orderOnline(){
     var size = document.getElementById("size").value;
     var topping =document.getElementById("toppings1").value;

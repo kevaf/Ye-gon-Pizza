@@ -59,7 +59,7 @@ nav a:hover{
     margin-left: 10px;
 }
 .container{
-    height: 550px;
+    height: 580px;
     text-align: center;
 }
 .orderonline{
@@ -103,6 +103,7 @@ nav a:hover{
 }
 #crust, #toppings{
     display: none;
+    margin-top: -95px;
 }
 .order, .delivery{
     display: none;
