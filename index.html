@@ -166,15 +166,12 @@
                             <option value="Sausages">Sausages</option>
                             <option value="Extra-Cheese">Extra-Cheese</option>
                         </select><br><br>
-                        <label for="quantity">Quantity</label> <input type="number" name="number" id="qty"min="1" max="100"><br>
+                        <label for="quantity">Quantity</label> <input type="number" name="number" id="qty"min="1" max="100"><br><br><br>
                         
-                        <input type="button" value="Submit" class="submit" onclick="orderOnline()" id="btnd">
+                        <input type="button" value="Make Order" class="submit" onclick="orderOnline()" id="btnd">
                         <p id="output"></p>
                       </form>
-              </div>
-              
-                
-
+              </div>             
                 <div class="order">
                   <h2>Your Order</h2>
                   <form action="">
@@ -201,7 +198,8 @@
                   </tr>
                       </tbody>
                     </table>
-                    <input type="button" value="Submit" class="submit" id="orderbtn">
+                    <input type="button" value="Get Your Order Delivered" class="submit" id="orderbtn"><br><br>
+                    <input type="button" value="Pick Your Order By Yourself" class="submit" id="pickup">
                   </form>
                 </div>
                 <div class="delivery">
@@ -210,7 +208,7 @@
                     <label for="">Street/Location</label><br>
                     <input type="text"><br>
                     <label for="">Phone Number</label><br>
-                    <input type="number"><br>
+                    <input type="number"><br><br><br>
                     <input type="button" value="Submit" class="submit">
                   </form>
                 </div>
