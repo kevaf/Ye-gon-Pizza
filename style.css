@@ -1,3 +1,8 @@
+*{
+        font-family: lekam;
+}
+
+
 header{
     background-image: url(./Assets/hemant-latawa-IfQlwNqJqV8-unsplash.jpg);
     background-repeat: no-repeat;
@@ -114,4 +119,5 @@ nav a:hover{
 }
 .order, .delivery{
     display: none;
+
 }

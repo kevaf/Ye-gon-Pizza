@@ -1,6 +1,6 @@
 $(document).ready(function(){
 $("#ps").click(function(){
-    $('#pizzasize').toggle();
+    $('#pizzasizeme').toggle();
     $('#crust').hide();
     $('#toppings').hide();
 });
