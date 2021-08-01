@@ -15,7 +15,7 @@
             <nav>
             <img src="./Assets/Screenshot_from_2021-06-12_16-39-44-removebg-preview.png" alt="">
             <ul>
-                <li><a href="#">Menu</a></li>
+                <li><a href="#menu">Menu</a></li>
                 <li><a href="#">Order Online</a></li>
                 <li><a href="#"><p>Ye-gon <br>Pizzas</p></a></li>
                 <li><a href="#">About</a></li>
@@ -27,7 +27,7 @@
         </div> 
        
     </header>
-    <div class="container">
+    <div class="container" id="menu">
         <h2 class="text-center">Menu</h2>
         <div class="choices">
             <h4 id="ps">Pizza Size.</h4> &nbsp&nbsp ●●
@@ -136,15 +136,17 @@
     </div>
 
     <div class="orderonline">
-        <div class="container-sm">
+        <div class="container1">
             <div class="input">
+              <div class="list">
+
                 <h2 class="text-center">Make an Order.</h2> <br><br>
                 <p>Make your orders online or give us a call at <strong>+259722222333</strong> between 8.30am - 9.30pm for deliveries</p><br><br>
                 <form action="">
                         <select name="Size" id="size" required>
                             <option value="">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp   Select Pizza Size &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp </option>
-                            <option value="Small">Small</option>
-                            <option value="Medium">Medium</option>
+                            <option value="small" id="small">Small</option>
+                            <option value="Medium" id="medium">Medium</option>
                             <option value="Large">large</option>
                         </select>
                        <br><br>
@@ -166,10 +168,53 @@
                         </select><br><br>
                         <label for="quantity">Quantity</label> <input type="number" name="number" id="qty"min="1" max="100"><br>
                         
-                        <input type="button" value="Submit" class="submit" onclick="orderOnline()">
-                   
-                </form>
-            </div>    
+                        <input type="button" value="Submit" class="submit" onclick="orderOnline()" id="btnd">
+                        <p id="output"></p>
+                      </form>
+              </div>
+              
+                
+
+                <div class="order">
+                  <h2>Your Order</h2>
+                  <form action="">
+                    <table class="table table-borderless" id="pizzasize">
+                      <tbody>
+                        <tr>
+                          <th scope="row">Pizza Size</th>
+                          <td id="ordersize"></td>
+                        </tr>
+                        <tr>
+                          <th scope="row">Pizza Crust</th>
+                          <td id="crustorder"></td>
+                        </tr>
+                        <tr>
+                          <th scope="row">Pizza Toppings</th>
+                          <td id="toppingsorder"></td>
+                        </tr>
+                        <th scope="row">Quantity</th>
+                        <td id="qtyorder"></td>
+                      </tr>
+                    </tr>
+                    <th scope="row">Total Amount</th>
+                    <td id="totalorder"></td>
+                  </tr>
+                      </tbody>
+                    </table>
+                    <input type="button" value="Submit" class="submit" id="orderbtn">
+                  </form>
+                </div>
+                <div class="delivery">
+                  <h2>Checkout</h2>
+                  <form action="">
+                    <label for="">Street/Location</label><br>
+                    <input type="text"><br>
+                    <label for="">Phone Number</label><br>
+                    <input type="number"><br>
+                    <input type="button" value="Submit" class="submit">
+                  </form>
+                </div>
+              </div>
         </div>
     </div>
     <div class="about"><br><br>
