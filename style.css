@@ -61,6 +61,13 @@ nav a:hover{
 .container{
     height: 580px;
     text-align: center;
+    background-image: url(./Assets/pizzabg2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+#pizzasize, #crust, #toppings{
+    color: white;
 }
 .orderonline{
     background-image: url(./Assets/ivan-torres-MQUqbmszGGM-unsplash.jpg);
