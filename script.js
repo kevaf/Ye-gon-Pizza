@@ -23,6 +23,11 @@ $("#orderbtn").click(function(){
     $(".order").hide();
     $(".delivery").show();
 })
+$("#pickup").click(function(){
+    $(".delivery").hide();
+    $(".list").show();
+    alert("Thank You and Welcome Back Next Time")
+})
 });
 
 function orderOnline(){
