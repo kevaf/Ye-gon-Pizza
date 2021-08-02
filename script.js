@@ -1,6 +1,6 @@
 $(document).ready(function(){
 $("#ps").click(function(){
-    $('#pizzasizeme').toggle();
+    $('#pizzasize').toggle();
     $('#crust').hide();
     $('#toppings').hide();
 });
@@ -26,6 +26,7 @@ $("#orderbtn").click(function(){
 $("#pickup").click(function(){
     $(".delivery").hide();
     $(".list").show();
+    $(".order").hide();
     alert("Thank You and Welcome Back Next Time")
 })
 });
@@ -35,7 +36,7 @@ function deliveryFunction(){
       var place=document.getElementById("location").value
       var phoneNum=document.getElementById("phone").value
       
-      alert("Your order will be delivered to the location you have provided")
+      alert("Your order will be delivered to the location you have provided the delivery fee is 200")
 
 }
 
