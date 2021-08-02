@@ -5,9 +5,14 @@ An Orders website for a Pizza shop
 ## Description
 This is an online platform for a pizza outlet called Ye-gon pizza, it is an online platform where customers make orders on their preffered pizza. a customer can pick from available choices of pizza sizes to their preffered crust and toppings and even decide if they want their order delivered to a location they will provide.
 
-## How to Use Ye-gon Pizza WebApp
-- Visit www.github
+## Screenshots
+<img src="./Assets/screenshots/landing.png">
+<img src="./Assets/screenshots/Menu.png">
+<img src="./Assets/screenshots/order.png">
 
+## How to Use Ye-gon Pizza WebApp
+- Visit https://kevaf.github.io/Ye-gon-Pizza/ 
+- Once there place your order and have it either delivered or pick it up yourself
 
 ## Technologies Used
 1. Html - this is used to create the basic structure of the website.
@@ -19,4 +24,4 @@ This is an online platform for a pizza outlet called Ye-gon pizza, it is an onli
 The website was created by Kevin Kipyegon a student at Moringa School.<br>If you have any suggestions or improvements you reach the author via mail at kevin.kipyegon@student.moringaschool.com or call +254707757676
 
 ## Liscence
-MIT
+[MIT LISCENCE](Liscence).
